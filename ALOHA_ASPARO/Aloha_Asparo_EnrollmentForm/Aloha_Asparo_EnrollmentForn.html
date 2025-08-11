@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BASIC EDUCATION ENROLLMENT FORM</title>
+</head>
+<body>
+    <h4>BASIC EDUCATION ENROLLMENT FORM</h4>
+    <h6>THIS FORM IS NOT FOR SALE</h6>
+
+    <label for="schoolyear">School Year:</label>
+    <input type="text" id="schoolyear" name="schoolyear">
+    <br>
+    <label for="gradelevel">Grade level to Enroll:</label>
+    <input type="text" id="gradelevel" name="gradelevel">
+    <fieldset>
+        <p>Check the appropriate box only</p>
+        <label for="lrn">1. With LRN? </label>
+            <input type="radio" id="yes" name="lrn" value="yes">
+                <label for="yes">Yes</label>
+            <input type="radio" id="no" name="lrn" value="no">
+                <label for="no">No</label><br>
+        <label for="returning">2. Returning (Balik Aral)</label>
+            <input type="radio" id="yes" name="returning" value="yes">
+                <label for="yes">Yes</label>
+            <input type="radio" id="no" name="returning" value="no">
+                <label for="no">No</label>
+    </fieldset>
+    <br>
+    <b>INSTRUCTIONS:</b><br>
+        <i>Print legibly all Information in CAPITAL letters. Submit accomplished form to the Person-in-Charge/Registrar/Class Adviser. Use black or blue pen only.</i>
+    <fieldset>
+        <legend><h4>LEARNER INFORMATION</h4></legend>
+            <label for="psa">PSA Birth Cirtificate No.(If available upon registration): </label>
+                <input type="text" id="psa" name="psa">
+            <label for="schoolyear">Learner Reference No. (LRN):</label>
+                <input type="text" id="lrn" name="lrn"><br>
+            <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname"><br>
+            <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname"><br>
+            <label for="middlename">Middle Name:</label>
+                <input type="text" id="middlename" name="middlename"><br>
+            <label for="extensionname">Extension Name e.g. Jr., lll (if applicable):</label>
+                <input type="text" id="extensionname" name="extensionname"><br>
+            <label for="birthdate">Birthdate (mm/dd/yyyy):</label>
+                <input type="date" id="extensionname" name="extensionname"><br>
+            <label for="sex">Sex: </label>
+                <select id="sex" name="sex">
+                <option value=""></option>
+                <option value="ml">Male</option>
+                <option value="fml">Female</option></select>
+            <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120"><br>
+            <label for="palceofbirth">Place of Birth (Municipality/City):</label>
+                <input type="text" id="palceofbirth" name="palceofbirth"><br>
+            <label for="mothertongue">Mohter Tongue:</label>
+                <input type="text" id="mothertongue" name="mothertongue"><br>
+            <label for="ip">Belonging to any Indigenous People(IP)Community/Indigenous Cultural Community</label><br>
+                <input type="radio" id="yes" name="ip" value="yes">
+                    <label for="yes">Yes</label>
+                <input type="radio" id="no" name="ip" value="no">
+                    <label for="no">No</label><br>
+                    <label for="ifyes">If Yes, please specify:</label>
+                    <input type="text" id="ifyes" name="ifyes"><br>
+            <label for="4Ps">Is your family a beneficiary of 4Ps?</label><br>
+                <input type="radio" id="yes" name="4ps" value="yes">
+                    <label for="yes">Yes</label>
+                <input type="radio" id="no" name="4ps" value="no">
+                    <label for="no">No</label><br>
+                        <label for="ifyes">If Yes,write the 4Ps Household ID Number below:</label>
+                            <input type="text" id="ifyes" name="ifyes"><br>
+        <fieldset>
+            <label for="ip">Is the child a Learner with Disability?</label>
+                <input type="radio" id="yes" name="disability" value="yes">
+                    <label for="yes">Yes</label>
+                <input type="radio" id="no" name="disability" value="no">
+                    <label for="no">No</label><br>
+                    <label for="ifyes">If Yes, specify the type of Disability?:</label><br>
+                        <input type="checkbox" id="VI" name="VI">    
+                            <label for="VI">Visual Impairment</label><br> 
+                                <input type="radio" id="blind" name="VI" value="VI">
+                                <label for="blind">a. Blind</label>
+                                <input type="radio" id="lv" name="VI" value="VI">
+                                <label for="lv">b. Low vision</label><br>
+                        <input type="checkbox" id="HI" name="Hi">
+                            <label for="HI">Hearing Impairment</label>
+                        <input type="checkbox" id="ASD" name="ASD">
+                            <label for="ASD">Autisim Spectrum Disorder</label>
+                        <input type="checkbox" id="SD" name="SD">
+                            <label for="SD">Speech/Language Disorder</label>
+                        <input type="checkbox" id="LD" name="LD">
+                            <label for="LD">Learning Disability</label>
+                        <input type="checkbox" id="EBD" name="EBD">
+                            <label for="EBD">Emotional-Behavioral Disorder</label>
+                        <input type="checkbox" id="CP" name="CP">
+                            <label for="CP">Cerebral Palsy</label>
+                        <input type="checkbox" id="ID" name="ID">
+                            <label for="ID">Intelectual Disability</label>
+                        <input type="checkbox" id="OPH" name="OPH">
+                            <label for="OPH">Orthopedic/Physical Handicap</label>
+                        <input type="checkbox" id="SHP" name="SHP">
+                            <label for="SHP">Speech/Language Disorder</label>
+                                <input type="radio" id="cancer" name="SHP" value="cancer">
+                            <label for="cancer">a. Cancer</label>
+                                
+                            
+
+
+        </fieldset>
+    </fieldset>
+</body>
+</html>
