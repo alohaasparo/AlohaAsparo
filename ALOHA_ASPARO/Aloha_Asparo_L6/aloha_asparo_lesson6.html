@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    <form action="/submit-form" method="post">
+            
+    <h1>REGISTRATION FORM</h1>
+
+    <fieldset>
+    <legend><b>Personal Information</b></legend>
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname">
+    <br>
+    <label for="EmailAddress">Email Address:</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <label for="birthdate">Date of Birth</label>
+    <input type="date" id="birthdate" name="birthdate">
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend><b>Account Details</b></legend>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+        <label for="password">Password</label>
+    <input type="password" id="password" name="password">
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend><b>Preferences</b></legend>
+    <label for="subscription">Subscription Fee:</label>
+    <select name="subscription" name="subscription">
+        <option value="">Select</option>
+        <option value="free">Free</option>
+    </select>
+    <br> 
+    <p>Notification Preferences:</p>
+    <input type="checkbox" id="email" name="notif" value="email">
+        <label for="email">Email</label>
+    <input type="checkbox" id="sms" name="notif" value="sms">
+        <label for="sms">SMS</label>
+    <input type="checkbox" id="pushnotif" name="notif" value="pushnotif">
+        <label for="pushnotif">Push Notification</label>
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend><b>Additional Information</b></legend>
+    <label for="bio">Brief Bio:</label>
+        <textarea name="bio" id="bio" rows="5" cols="50"></textarea><br>
+    <br>
+    <legend>How did you hear about us?</legend><br>
+    <input type="radio" id="socialmedia" name="question" value="socialmedia">
+        <label for="socialmedia">Social Media</label>
+    <input type="radio" id="friend" name="question" value="friend">
+        <label for="friend">Friend</label>
+    <input type="radio" id="searchengine" name="question" value="searchengine">
+        <label for="searchengine">Search Engine</label>
+    <input type="radio" id="other" name="question" value="other">
+        <label for="other">Other</label> 
+    </fieldset>
+    <br>
+<hr>
+    <button>Clear Form</button> <button>Register</button>  
+    </form>
+</body>
+</html>
